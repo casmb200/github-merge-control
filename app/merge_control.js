@@ -2,10 +2,10 @@ $(function() {
 
   var setting = {};
   setting = {
-      url: 'http://ghe.aws01.mapion.co.jp',
-      user: 'mapiondev',
-      repository: 'contents',
-      branch: 'release'
+      url: 'https://github.com',
+      user: 'casmb200',
+      repository: 'github-merge-control',
+      branch: 'master'
   };
 
   chrome.storage.local.get(setting, function(items) {

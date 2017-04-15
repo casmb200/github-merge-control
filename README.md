@@ -1,1 +1,2 @@
 # GithubMergeControl
+テスト
